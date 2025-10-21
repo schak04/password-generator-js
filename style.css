@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background: #111;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+main {
+    background: #222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.checkboxes {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#lengthInput {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: hsl(122, 39%, 50%);
+    color: black;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: hsl(122, 85%, 40%);
+}
+button:active {
+    background-color: hsl(122, 100%, 30%);
+    transform: scale(0.98);
+}
+
+#passwordOutput {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+
+#copyBtn {
+    margin-top: 10px;
+    background: hsl(195, 100%, 60%);
+}
+#copyBtn:hover {
+    background: hsl(195, 100%, 50%);
+}
+#copyBtn:active {
+    background: hsl(195, 100%, 40%);
+    transform: scale(0.98);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeySmith Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <h1>KeySmith</h1>
+        <h2>Password Generator</h2>
+
+        <label>
+            <b>Length:</b>
+            <input type="number" id="lengthInput" min="6" max="50" value="12" />
+        </label>
+
+        <div class="checkboxes">
+            <label><input type="checkbox" id="lowercase" checked>Include lowercase</label><br>
+            <label><input type="checkbox" id="uppercase" checked>Include uppercase</label><br>
+            <label><input type="checkbox" id="numbers" checked>Include numbers</label><br>
+            <label><input type="checkbox" id="symbols" checked>Include symbols</label><br>
+        </div>
+
+        <button id="generateBtn">Generate Password</button>
+
+        <div id="outputArea">
+            <p id="passwordOutput">Your password will appear here</p>
+            <button id="copyBtn">Copy to Clipboard</button>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
